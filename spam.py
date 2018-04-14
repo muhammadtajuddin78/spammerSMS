@@ -45,4 +45,3 @@ def spam():
 		time.sleep(1)
 		count = count + 1
 	print("Succesful!!")
-	sys.exit
