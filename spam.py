@@ -28,8 +28,9 @@ tes= """
         ______( (_  / \______
       ,'  ,-----'   |        \
       `--{__________)        \/
-	  """
-print tes
+"""
+def spam():
+        print tes
 	phone_number = raw_input("Nomer HP : ")
 	countx = raw_input("Jumlah : ")
 	countx = int(countx)
