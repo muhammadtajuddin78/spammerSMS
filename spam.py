@@ -6,28 +6,27 @@ import time
 import requests
 
 tes= """
- ____________ 
-< SMS Spammer >
+____________ 
+< SpammerSMS >
  ------------ 
-   \         ,        ,
-    \       /( Kizuka )\
-     \      \ \___   / |
-            /- _  `-/  '
-           (/\/ \ \   /\
-           / /   | `    \
-           X X   ) /    |
-           `-^--'`<     '
-          (_.)  _  )   /
-           `.___/`    /
-             `-----' /
-<----.     __ / __   \  
-<----|====O)))==) \) /====
-<----'    `--' `.__,' \
-             |        |
-              \       /
-        ______( (_  / \______
-      ,'  ,-----'   |        \
-      `--{__________)        \/
+   \
+    \
+      _____   _________
+     /     \_/         |
+    |    Kizukaa      ||
+    |CyberLegacyXploit||
+   |    ###\  /###   | |
+   |     0  \/  0    | |
+  /|                 | |
+ / |        <        |\ \
+| /|                 | | |
+| |     \_______/   |  | |
+| |                 | / /
+/||                 /|||
+   ----------------|
+        | |    | |
+        ***    ***
+       /___\  /___\
 """
 def spam():
 	jumlah=sys.argv[1].split("=")[1:]
@@ -51,7 +50,7 @@ def spam():
 if __name__ == '__main__':
 	if len(sys.argv) != 3:
 		print tes
-		print "Usage: jdid.py --count=10 PHONE"
+		print "Usage: spam --count=10 NoHP"
 		sys.exit(0)
 	else:
 		spam()
