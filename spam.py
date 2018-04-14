@@ -50,7 +50,7 @@ def spam():
 
 if __name__ == '__main__':
 	if len(sys.argv) != 3:
-		print __banner__
+		print tes
 		print "Usage: jdid.py --count=10 PHONE"
 		sys.exit(0)
 	else:
