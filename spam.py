@@ -50,7 +50,7 @@ def spam():
 if __name__ == '__main__':
 	if len(sys.argv) != 3:
 		print tes
-		print "Usage: spam --count=10 NoHP"
+		print "Usage: spam.py --count=10 NoHP"
 		sys.exit(0)
 	else:
 		spam()
