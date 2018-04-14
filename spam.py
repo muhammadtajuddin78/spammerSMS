@@ -34,7 +34,7 @@ def spam():
 	jumlah=jumlah[0]
 	jumlah=int(jumlah)
 	phone=sys.argv[2]
-	print __banner__
+	print tes
 	param = {'phone':''+sys.argv[2],'smsType':'1'}
 	count = 0
 	while (count < jumlah):
