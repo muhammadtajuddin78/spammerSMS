@@ -6,7 +6,6 @@ import time
 import requests
 
 tes= """
-{+}------------------Kizukaa--------------------{+}
   _____ ____    ____  ___ ___  ___ ___    ___  ____  
  / ___/|    \  /    T|   T   T|   T   T  /  _]|    \ 
 (   \_ |  o  )Y  o  || _   _ || _   _ | /  [_ |  D  )
@@ -21,6 +20,8 @@ tes= """
             /  \ ||   |   |/  \ |
             \    ||   |   |\    |
              \___jl___j___j \___j
+Author : Kizukaa
+Team : CyberLegacyXploit
 """
 def spam():
 	jumlah=sys.argv[1].split("=")[1:]
