@@ -20,8 +20,8 @@ tes= """
             /  \ ||   |   |/  \ |
             \    ||   |   |\    |
              \___jl___j___j \___j
-Author : Kizukaa
-Team : CyberLegacyXploit
+Author : jack
+Team : A-team
 """
 def spam():
 	jumlah=sys.argv[1].split("=")[1:]
